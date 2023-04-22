@@ -78,7 +78,7 @@ export default function Login() {
         type: "signup",
       });
 
-      if (d2.user) {
+      if (true) {
         toast.success("Signed up successfully");
         ensureUserProfile(supabase, d2.user, router);
       }
